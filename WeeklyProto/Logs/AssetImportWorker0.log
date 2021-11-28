@@ -1254,3 +1254,665 @@ Received Import Request.
 Start importing Assets/Week 10/Levels/Nightmare.unity using Guid(6c5afed758d9dde4d96232ce7a139e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8493785d21b6c1fa3174a8252f95b4') in 0.005286 seconds 
   Import took 0.007075 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (748ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1922.
+Total: 3.018000 ms (FindLiveObjects: 0.152200 ms CreateObjectMapping: 0.055800 ms MarkObjects: 2.519600 ms  DeleteObjects: 0.289200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (577ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 77.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 2.325700 ms (FindLiveObjects: 0.119300 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.952000 ms  DeleteObjects: 0.220400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2895.797607 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Ground.mat
+  artifactKey: Guid(5d4697e9a361406448d5f5809a4fdd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Ground.mat using Guid(5d4697e9a361406448d5f5809a4fdd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627a44198e1f1064406178c605a296fe') in 0.039367 seconds 
+  Import took 0.041343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground Flag 1.mat
+  artifactKey: Guid(9e67319e831f6d846afd4f7ef8171994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground Flag 1.mat using Guid(9e67319e831f6d846afd4f7ef8171994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf56649a46ff98e3a833b64d0c6c3fd5') in 0.008644 seconds 
+  Import took 0.010224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 4.mat
+  artifactKey: Guid(c33fc907a17f4a84dab1ccacb9b39d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 4.mat using Guid(c33fc907a17f4a84dab1ccacb9b39d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1e81e8ce3a878adde3016274d6bc13') in 0.011911 seconds 
+  Import took 0.013666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Sand Pit 1.mat
+  artifactKey: Guid(f251be4e41510f44c81eb26a67e46a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Sand Pit 1.mat using Guid(f251be4e41510f44c81eb26a67e46a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a024356b2cfb93d3ce9e10b206dbdb0') in 0.010373 seconds 
+  Import took 0.012052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 5.mat
+  artifactKey: Guid(1aae9d8f3463a9742a0ad26ab351651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 5.mat using Guid(1aae9d8f3463a9742a0ad26ab351651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778fbd5a9e7f386ca8c87fc6751d13f6') in 0.008719 seconds 
+  Import took 0.010358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Sand Pit 1.mat
+  artifactKey: Guid(f251be4e41510f44c81eb26a67e46a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Sand Pit 1.mat using Guid(f251be4e41510f44c81eb26a67e46a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a024356b2cfb93d3ce9e10b206dbdb0') in 0.005510 seconds 
+  Import took 0.007319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 3.mat
+  artifactKey: Guid(1142c30f2572639469eba49319f1e299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 3.mat using Guid(1142c30f2572639469eba49319f1e299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058f20ffa31f0e0500e070da6a697d35') in 0.010990 seconds 
+  Import took 0.012628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Sand Pit 2.mat
+  artifactKey: Guid(3048c4177215a7949b2d26ac33e32a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Sand Pit 2.mat using Guid(3048c4177215a7949b2d26ac33e32a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1078e0d30362c5dc1cc24025b29515') in 0.008710 seconds 
+  Import took 0.010410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground Flag 2.mat
+  artifactKey: Guid(3cde198ffe0ebfe44884ceb9ab0b6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground Flag 2.mat using Guid(3cde198ffe0ebfe44884ceb9ab0b6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3861d570e4dab71a1ec819b7b5ca68fd') in 0.008812 seconds 
+  Import took 0.010478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 2.mat
+  artifactKey: Guid(b60d813b1a1648143b40741efbc79b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 2.mat using Guid(b60d813b1a1648143b40741efbc79b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c1b644542d8999145928821eef14cb') in 0.008657 seconds 
+  Import took 0.010275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Tree 1.mat
+  artifactKey: Guid(1c475df3a5c375940889449ccc6d4b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Tree 1.mat using Guid(1c475df3a5c375940889449ccc6d4b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fc03940a18113c02fa8f6c630dc102') in 0.009936 seconds 
+  Import took 0.011722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Tree 2.mat
+  artifactKey: Guid(7360fc183afc9a6499ad88c0bd978d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Tree 2.mat using Guid(7360fc183afc9a6499ad88c0bd978d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26502eab94ce73bc3950049b871a0c1f') in 0.008661 seconds 
+  Import took 0.010344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 1.mat
+  artifactKey: Guid(dec19f4a5772e454eb3f597247c466ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 1.mat using Guid(dec19f4a5772e454eb3f597247c466ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedd81e8f1d0da10be07d68448db4cce') in 0.009262 seconds 
+  Import took 0.011020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004583 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 1.mat
+  artifactKey: Guid(dec19f4a5772e454eb3f597247c466ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Materials/Playground 1.mat using Guid(dec19f4a5772e454eb3f597247c466ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedd81e8f1d0da10be07d68448db4cce') in 0.009591 seconds 
+  Import took 0.011305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257650 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/1 Stair.prefab
+  artifactKey: Guid(95da36aa152dd91448920aa8ef234c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/1 Stair.prefab using Guid(95da36aa152dd91448920aa8ef234c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9802103b49245bc6e32a715e1323ecc') in 0.014853 seconds 
+  Import took 0.016611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Shrub 1.prefab
+  artifactKey: Guid(d2ab6e479fe600b46a5d688a54249fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Shrub 1.prefab using Guid(d2ab6e479fe600b46a5d688a54249fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312b9c1f23f38df22d100f9a3117ae09') in 0.010114 seconds 
+  Import took 0.012047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Ground.prefab
+  artifactKey: Guid(66bb893fb995510488b38f84bfc70164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Ground.prefab using Guid(66bb893fb995510488b38f84bfc70164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e678ff9d567d77f855e598a6bffe0875') in 0.008825 seconds 
+  Import took 0.010524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Ground Corner.prefab
+  artifactKey: Guid(7c409161b16cf0a42807e15841324a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Ground Corner.prefab using Guid(7c409161b16cf0a42807e15841324a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0743cfff88b7f6e256eeca3daecab289') in 0.010543 seconds 
+  Import took 0.012237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 12.prefab
+  artifactKey: Guid(03ba5bc2d6c6ac447ae8768b3be9124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 12.prefab using Guid(03ba5bc2d6c6ac447ae8768b3be9124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a178468a96b84c64588296d45f17a60') in 0.008763 seconds 
+  Import took 0.010622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Pull Up Bar 1.prefab
+  artifactKey: Guid(6eaf3cc5cfb7c724bbbe454010a75dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Pull Up Bar 1.prefab using Guid(6eaf3cc5cfb7c724bbbe454010a75dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd996a6421d646a165385d7839fe92fc4') in 0.017981 seconds 
+  Import took 0.019840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 7.prefab
+  artifactKey: Guid(993a206f9b20118499f50f67ed29aed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 7.prefab using Guid(993a206f9b20118499f50f67ed29aed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b566b441ced130f0a984178896ae24e') in 0.009581 seconds 
+  Import took 0.011531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Ground Straight.prefab
+  artifactKey: Guid(a7c33ccbcfd26554e92028de001563be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Ground Straight.prefab using Guid(a7c33ccbcfd26554e92028de001563be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2601725ca6ee624995cdaaca9e3bc9b5') in 0.009700 seconds 
+  Import took 0.011806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Slide 1.prefab
+  artifactKey: Guid(e9a4b9dc875a714428cc3fb34ade6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Slide 1.prefab using Guid(e9a4b9dc875a714428cc3fb34ade6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4340afbff06c0d8fd3cb1a20c64bf811') in 0.009220 seconds 
+  Import took 0.010931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Roof Support.prefab
+  artifactKey: Guid(f00c2893f643bee4d9208a6b4f4f415d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Roof Support.prefab using Guid(f00c2893f643bee4d9208a6b4f4f415d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ac043ceeb04c31c92e0486b5a9a8f1') in 0.010656 seconds 
+  Import took 0.012398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Flag.prefab
+  artifactKey: Guid(f7e58f2fa1eccf44c8716f15e2e852fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Flag.prefab using Guid(f7e58f2fa1eccf44c8716f15e2e852fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78750071bf93a7307a297d1a489c5d0') in 0.009678 seconds 
+  Import took 0.011470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 2.prefab
+  artifactKey: Guid(315fceb9aed5ff543b7de6c7507960ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 2.prefab using Guid(315fceb9aed5ff543b7de6c7507960ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d6b1b961a7fa685187ba81d800a9dc') in 0.008702 seconds 
+  Import took 0.010388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Fireman Pole.prefab
+  artifactKey: Guid(3eb9f1e531955ce44b74d4521c27d45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Fireman Pole.prefab using Guid(3eb9f1e531955ce44b74d4521c27d45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34a7913b04ca7b946e128a29c96e714') in 0.008833 seconds 
+  Import took 0.010465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 9.prefab
+  artifactKey: Guid(289ccb72487e8fc4486625ec0f08cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 9.prefab using Guid(289ccb72487e8fc4486625ec0f08cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23015608543dc4eb14439b6645bfdf44') in 0.009254 seconds 
+  Import took 0.010965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Shrub 3.prefab
+  artifactKey: Guid(1a66b41fb91cc5b4d83f60c648208832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Shrub 3.prefab using Guid(1a66b41fb91cc5b4d83f60c648208832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f53e5e832860df8ca02762c4885473') in 0.009600 seconds 
+  Import took 0.011366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/3 Stair.prefab
+  artifactKey: Guid(436ff71ab28be86478589a10acabc3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/3 Stair.prefab using Guid(436ff71ab28be86478589a10acabc3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74a049420e1c591ce37e275c5730045') in 0.008961 seconds 
+  Import took 0.010599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Tree.prefab
+  artifactKey: Guid(29422edf744b1f94ab615aef9c49c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Tree.prefab using Guid(29422edf744b1f94ab615aef9c49c3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3961f10a63ae3a6bcafd439e957675a') in 0.010152 seconds 
+  Import took 0.011954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Platform.prefab
+  artifactKey: Guid(78f5652bbca95284eac6e110baa3de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Platform.prefab using Guid(78f5652bbca95284eac6e110baa3de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ae8c2e094c9eb9c51e9e1ae15c96a8') in 0.008472 seconds 
+  Import took 0.010463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Supports 4.prefab
+  artifactKey: Guid(15ad90d5fbcede14f8af0cc96afc659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Supports 4.prefab using Guid(15ad90d5fbcede14f8af0cc96afc659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6458e34a6c09d597f6cdb503da415c') in 0.008745 seconds 
+  Import took 0.010445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Supports 3.prefab
+  artifactKey: Guid(57bc683d8473dbf45a1d9c55378770fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Supports 3.prefab using Guid(57bc683d8473dbf45a1d9c55378770fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9befab95073c142f53e4c11bb19ac02b') in 0.011702 seconds 
+  Import took 0.013274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Walkway.prefab
+  artifactKey: Guid(95759a058b277ff4bb4968befd76edb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Walkway.prefab using Guid(95759a058b277ff4bb4968befd76edb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b397da907b64698cdee48a8d6565074') in 0.009654 seconds 
+  Import took 0.011436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 1.prefab
+  artifactKey: Guid(a8e7884c1291c9240a5e014c329033bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 1.prefab using Guid(a8e7884c1291c9240a5e014c329033bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bfe6f5edb669eab0ed4a045dd30ac8') in 0.011605 seconds 
+  Import took 0.013347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/4 Stair.prefab
+  artifactKey: Guid(d07765670c65f904db7b8d34111df9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/4 Stair.prefab using Guid(d07765670c65f904db7b8d34111df9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20afaeded0c43584a07adbc828feb4f') in 0.009452 seconds 
+  Import took 0.011189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/2 Stair.prefab
+  artifactKey: Guid(b75935fa55535e24b8154054261a505e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/2 Stair.prefab using Guid(b75935fa55535e24b8154054261a505e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5511af2595f7b6f4af27e98e05c3800d') in 0.008804 seconds 
+  Import took 0.010980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 3.prefab
+  artifactKey: Guid(ad28c5b268968bc439c4fb1d43617775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 3.prefab using Guid(ad28c5b268968bc439c4fb1d43617775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3da0ab6c5f409a9b2da02c492665fb') in 0.017056 seconds 
+  Import took 0.018794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Rail.prefab
+  artifactKey: Guid(44034b10d47d7364b95a1f8b0b5e26b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Rail.prefab using Guid(44034b10d47d7364b95a1f8b0b5e26b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb755c4f303fd7297166eb26ed16223') in 0.009491 seconds 
+  Import took 0.011574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 8.prefab
+  artifactKey: Guid(f582a2af67d1104448d14e55b0f5d35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 8.prefab using Guid(f582a2af67d1104448d14e55b0f5d35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b048a34ad425484a99c0469bf945a7') in 0.009278 seconds 
+  Import took 0.011055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 6.prefab
+  artifactKey: Guid(4e5d657aad3f62c4083b0a71ab6f2166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 6.prefab using Guid(4e5d657aad3f62c4083b0a71ab6f2166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd432089c8278aebe7b537333db3d289') in 0.009069 seconds 
+  Import took 0.010802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Running Wheel.prefab
+  artifactKey: Guid(f6170481cfdd7a84b986c639142447dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Running Wheel.prefab using Guid(f6170481cfdd7a84b986c639142447dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be81be7375a8516846799d68ee97bb97') in 0.010131 seconds 
+  Import took 0.012238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Monkey Bars.prefab
+  artifactKey: Guid(38a567cd50afa334790818c745f0ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Monkey Bars.prefab using Guid(38a567cd50afa334790818c745f0ea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543be503c55a4366bf7fc92cc6dc1f83') in 0.009090 seconds 
+  Import took 0.010819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Roof.prefab
+  artifactKey: Guid(918c4a766d7ba2943afd63baa20c8182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Roof.prefab using Guid(918c4a766d7ba2943afd63baa20c8182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd092edf6e9232452a8e18a02fe0b0077') in 0.008769 seconds 
+  Import took 0.010409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Supports 1.prefab
+  artifactKey: Guid(77552bc4ff1475848afadb0aa83dcec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Supports 1.prefab using Guid(77552bc4ff1475848afadb0aa83dcec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dd44ddb1615d1996c057fc5de8f4a9') in 0.009595 seconds 
+  Import took 0.011339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Slide 3.prefab
+  artifactKey: Guid(1d13a66744d5e9141b99a265b357c048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Slide 3.prefab using Guid(1d13a66744d5e9141b99a265b357c048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af038b85bd2a519082c72e32d8b63d56') in 0.009570 seconds 
+  Import took 0.011348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 11.prefab
+  artifactKey: Guid(67dea00f6ca994a419e8143449193e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 11.prefab using Guid(67dea00f6ca994a419e8143449193e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ec81121b39d19b614f554afdf88795') in 0.009393 seconds 
+  Import took 0.011188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Supports 2.prefab
+  artifactKey: Guid(ffff92f680d5f144d9d5727594f11fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Supports 2.prefab using Guid(ffff92f680d5f144d9d5727594f11fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6db56898cf4bce8e6e2b68d3ab130f') in 0.009336 seconds 
+  Import took 0.011235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Corner.prefab
+  artifactKey: Guid(b8ae4a6f1a51c294b965dd4427e70780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Corner.prefab using Guid(b8ae4a6f1a51c294b965dd4427e70780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd76a43d0f1f4d3db7a44025621c554c') in 0.009535 seconds 
+  Import took 0.011515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 10.prefab
+  artifactKey: Guid(c7dd39f69d43f2148b05c5916945ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 10.prefab using Guid(c7dd39f69d43f2148b05c5916945ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23eb36b9bc10bd88ce3d3ca9b6782a69') in 0.008433 seconds 
+  Import took 0.009968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Pull Up Bar 2.prefab
+  artifactKey: Guid(98c47100c63bec24d8dc54d6ddf6e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Pull Up Bar 2.prefab using Guid(98c47100c63bec24d8dc54d6ddf6e49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d1e49f25b04e3521bbce28165fa295') in 0.008769 seconds 
+  Import took 0.010606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 5.prefab
+  artifactKey: Guid(8b83dd9a85de4404394b937c58cf748b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 5.prefab using Guid(8b83dd9a85de4404394b937c58cf748b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f495836ff54f5c956cc0ff8a58099a') in 0.008372 seconds 
+  Import took 0.010014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Roundabout.prefab
+  artifactKey: Guid(79442a884954497498ade716fb8de5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Roundabout.prefab using Guid(79442a884954497498ade716fb8de5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c154146bea0cb9071d6e9550fae8cb99') in 0.010945 seconds 
+  Import took 0.012751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Sand Pit.prefab
+  artifactKey: Guid(0fcd1e8aa53dcd243ae5e85d8c183374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Sand Pit.prefab using Guid(0fcd1e8aa53dcd243ae5e85d8c183374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b1d5312fd75ca529f64e20025edbb3') in 0.009023 seconds 
+  Import took 0.010772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Slide 2.prefab
+  artifactKey: Guid(d261f4a88e1aa324991d82f12edad8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Slide 2.prefab using Guid(d261f4a88e1aa324991d82f12edad8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82252faaef214c43fdb43c0a526acfc') in 0.009165 seconds 
+  Import took 0.010835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Seesaw.prefab
+  artifactKey: Guid(3d81e66d37307954e954061e93e7d430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Seesaw.prefab using Guid(3d81e66d37307954e954061e93e7d430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16333bad0bedfc3caf9a85ac575f9213') in 0.009629 seconds 
+  Import took 0.011336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Shrub 2.prefab
+  artifactKey: Guid(ce84f6d88ab846a44aab59dcd375ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Shrub 2.prefab using Guid(ce84f6d88ab846a44aab59dcd375ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca035703b0625a37e83f54f4e2556a2') in 0.009005 seconds 
+  Import took 0.010839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 4.prefab
+  artifactKey: Guid(d96e69b32576efb418704298f785a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Rock 4.prefab using Guid(d96e69b32576efb418704298f785a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f814ae43099b483fa3060321df2ea391') in 0.008740 seconds 
+  Import took 0.010506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Swing Set.prefab
+  artifactKey: Guid(27449e4c31abb664bbf04de94abd7afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Swing Set.prefab using Guid(27449e4c31abb664bbf04de94abd7afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0367ccdebe74409c5fbc3fba78e27636') in 0.018235 seconds 
+  Import took 0.019991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Straight.prefab
+  artifactKey: Guid(5d6f107b0cd451d4998c38afdea3fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Week 10/Assets/9t5 Low Poly Playground/Prefabs/Playground Straight.prefab using Guid(5d6f107b0cd451d4998c38afdea3fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbec829a04a09b331f14904a93854af7') in 0.009445 seconds 
+  Import took 0.011206 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.556 seconds
+Domain Reload Profiling:
+	ReloadAssembly (556ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 2.197500 ms (FindLiveObjects: 0.116200 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.859500 ms  DeleteObjects: 0.189500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
