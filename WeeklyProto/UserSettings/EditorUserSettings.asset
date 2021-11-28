@@ -6,31 +6,31 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
-      value: 224247031146466f0816180f153057502605176a092e20352e3d5216fae13928eee225a6d33f27281407fc34342c0e1af40c0c08e22f0f061e40e80018eb09
-      flags: 0
-    RecentlyUsedScenePath-1:
       value: 224247031146466c080b07624173102f3d12142229251912282d0f3ceded7b0be1e238ecf4751b39340da1290a371526
       flags: 0
-    RecentlyUsedScenePath-2:
-      value: 224247031146466c080b07624173103d171e16072926337e38271427fb
-      flags: 0
-    RecentlyUsedScenePath-3:
+    RecentlyUsedScenePath-1:
       value: 2242470311464602195b4c0e1f341f20191b016a1c2427292a3b1226ece47b0be1e238ecf475133d200dfa284a2b0f36e613
       flags: 0
-    RecentlyUsedScenePath-4:
+    RecentlyUsedScenePath-2:
       value: 2242470311464602195b4c0e1f341f20191b016a1c2427292a3b1226ece47b0be1e238ecf4751b39340daf0f073b0f3abc1f0702e212
       flags: 0
-    RecentlyUsedScenePath-5:
+    RecentlyUsedScenePath-3:
       value: 224247031146466c080b07624173103105041d3e3f677f247869313cf5a00437eefe76d9eb3b263b2b0dfa320071323cf7040c18b9270b121e1be94004f1190708
       flags: 0
-    RecentlyUsedScenePath-6:
+    RecentlyUsedScenePath-4:
       value: 224247031146466c080b07624173103105041d3e3f677f247869313cf5a00437eefe76d9eb3b263b2b0dfa320071323cf7040c18b92f0f061e4ece0d14f1155d04cb11d103
       flags: 0
-    RecentlyUsedScenePath-7:
+    RecentlyUsedScenePath-5:
       value: 224247031146466f1f1b091d382c4d02190527093e2d2724383b1820adc3263de3f323fbe2052b392a16a1290a371526
       flags: 0
-    RecentlyUsedScenePath-8:
+    RecentlyUsedScenePath-6:
       value: 224247031146466c080b07624173102404021d1504273422223b2210f0e5352cf7f533faa8192d393816fa2e0101153ae11e471ef8021e12
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 224247031146466c080b07624173103d171e16072926337e38271427fb
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 224247031146466c080b07624173103c13011d263f670e313d390473d1e33136e7a923e7ee2e26
       flags: 0
     RecentlyUsedScenePath-9:
       value: 224247031146466c080b07624173103c13011d263f6708392a21093ee3f23176f7e93ffdfe
