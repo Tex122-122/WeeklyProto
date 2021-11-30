@@ -1061,6 +1061,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11432326, guid: 332254905319da1469830bd3e8725b48, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 332254905319da1469830bd3e8725b48, type: 3}
 --- !u!1 &1253656389 stripped
@@ -1106,10 +1110,10 @@ MonoBehaviour:
   player: {fileID: 1033925227}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   whatIsPlayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   health: 0
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 0
@@ -1117,7 +1121,7 @@ MonoBehaviour:
   projectile: {fileID: 0}
   sightRange: 12.04
   attackRange: 0
-  playerInSightRange: 0
+  playerInSightRange: 1
   playerInAttackRange: 0
 --- !u!1 &1353755672
 GameObject:

@@ -7,6 +7,7 @@ public class Controller : MonoBehaviour
     [SerializeField] Transform playerCamera = null;
     [SerializeField] float mouseSensitivity = 3.5f;
     [SerializeField] float walkSpeed = 6.0f;
+    [SerializeField] float gravity = -13.0f;
     [SerializeField] [Range(0.0f, 0.5f)] float moveSmoothTime = 0.03f;
     [SerializeField] [Range(0.0f, 0.5f)] float mouseSmoothTime = 0.03f;
 
@@ -14,6 +15,7 @@ public class Controller : MonoBehaviour
     [SerializeField] bool lockCursor = true;
 
     float cameraPitch = 0.0f;
+    float velocityY = 0.0f;
     CharacterController controller = null;
 
     Vector2 currentDir = Vector2.zero;
@@ -56,7 +58,12 @@ public class Controller : MonoBehaviour
 
         currentDir = Vector2.SmoothDamp(currentDir, targetDir, ref currentDirVelocity, moveSmoothTime);
 
-        Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed;
+        if (controller.isGrounded)
+            velocityY = 0.0f;
+
+        velocityY += gravity * Time.deltaTime;
+
+        Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed + Vector3.up * velocityY;
 
         controller.Move(velocity * Time.deltaTime);
     }
