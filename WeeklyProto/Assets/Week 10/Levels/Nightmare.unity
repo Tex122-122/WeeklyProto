@@ -910,6 +910,7 @@ MonoBehaviour:
   playerCamera: {fileID: 347672092}
   mouseSensitivity: 3.5
   walkSpeed: 6
+  gravity: -13
   moveSmoothTime: 0.03
   mouseSmoothTime: 0.03
   lockCursor: 1
@@ -1017,6 +1018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: thc6
       objectReference: {fileID: 0}
+    - target: {fileID: 111292, guid: 332254905319da1469830bd3e8725b48, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 494698, guid: 332254905319da1469830bd3e8725b48, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1059,6 +1064,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 494698, guid: 332254905319da1469830bd3e8725b48, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500310, guid: 332254905319da1469830bd3e8725b48, type: 3}
+      propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11432326, guid: 332254905319da1469830bd3e8725b48, type: 3}
