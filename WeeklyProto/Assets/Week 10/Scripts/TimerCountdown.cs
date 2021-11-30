@@ -5,28 +5,22 @@ using UnityEngine.UI;
 
 public class TimerCountdown : MonoBehaviour
 {
-    public GameObject textDisplay;
-    public int secondsLeft = 30;
-    public bool takingAway = false;
+    public string LevelToLoad;
+    private float timer = 10f;
+    private Text timerSeconds;
 
     void Start()
     {
-        textDisplay.GetComponent<Text>().text = "00:" + secondsLeft;
-    }
-    void Update()
-    {
-      if (takingAway == false && secondsLeft > 0)
-        {
-            StartCoroutine(TimerTake());
-        }
+        timerSeconds = GetComponent<Text>();  
     }
 
-    IEnumerator TimerTake()
+    void Update()
     {
-        takingAway = true;
-        yield return new WaitForSeconds(1);
-        secondsLeft -= 1;
-        textDisplay.GetComponent<Text>().text = "00:" + secondsLeft;
-        takingAway = false;
+        timer -= Time.deltaTime;
+        timerSeconds.text = timer.ToString("f2");
+        if (timer <= 0)
+        {
+            Application.LoadLevel(LevelToLoad);
+        }
     }
 }
