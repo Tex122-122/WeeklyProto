@@ -4,8 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
-  - Player1
+  - Robot
+  - road
+  - Shelf
+  - Box
   layers:
   - Default
   - TransparentFX
@@ -13,10 +15,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - Ground
   - 
   - 
+  - PostProcessing
+  - Path
   - 
   - 
   - 

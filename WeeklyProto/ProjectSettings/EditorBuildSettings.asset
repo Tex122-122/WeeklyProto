@@ -6,15 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Week 10/MainMenu.unity
-    guid: c472d5611583aa34b8a87c889d6f58ee
-  - enabled: 1
-    path: Assets/Week 10/Levels/Happy.unity
-    guid: dc28cd2d14e4c4d4b8c1eab5d12d0699
-  - enabled: 1
-    path: Assets/Week 10/Levels/Nightmare.unity
-    guid: 6c5afed758d9dde4d96232ce7a139e63
-  - enabled: 1
-    path: Assets/Week 10/Levels/End Scene.unity
-    guid: 0e82c9c3d2c129641b472e2e932bc346
+    path: Assets/Warehouse Robot/Scenes/Warehouse.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
