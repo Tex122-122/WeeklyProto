@@ -3123,3 +3123,4 @@ Received Import Request.
 Start importing Assets/Final Week/Imported Assets/Sci-Fi Police Pack/Scenes/RI_Sci-Fi Police_Scene/Lightmap-4_comp_dir.png using Guid(1c2255411e03d334087081b779b8b601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976a31357c88d91b1a8d0de9e8fa24ec') in 0.008166 seconds 
   Import took 0.009901 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
