@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyAI : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     public NavMeshAgent agent;
 
-    public Transform target;
+    public Transform player;
 
     public LayerMask whatIsGround, whatIsPlayer;
 
@@ -29,7 +29,7 @@ public class EnemyAI : MonoBehaviour
 
     private void Awake()
     {
-        target = GameObject.Find("Player").transform;
+        player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -71,7 +71,7 @@ public class EnemyAI : MonoBehaviour
 
     private void ChasePlayer()
     {
-        agent.SetDestination(target.position);
+        agent.SetDestination(player.position);
     }
 
     private void AttackPlayer()
@@ -79,7 +79,7 @@ public class EnemyAI : MonoBehaviour
         //Make sure enemy doesn't move
         agent.SetDestination(transform.position);
 
-        transform.LookAt(target);
+        transform.LookAt(player);
 
         if (!alreadyAttacked)
         {
@@ -117,4 +117,3 @@ public class EnemyAI : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, sightRange);
     }
 }
-
