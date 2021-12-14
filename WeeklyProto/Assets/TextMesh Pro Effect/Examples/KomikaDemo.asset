@@ -17,7 +17,8 @@ MonoBehaviour:
   materialHashCode: 967019273
   m_Version: 1.1.0
   m_SourceFontFileGUID: a34c38544dcee9d43a26dd824bbb5778
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: a34c38544dcee9d43a26dd824bbb5778, type: 3}
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: a34c38544dcee9d43a26dd824bbb5778,
+    type: 3}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
@@ -5359,7 +5360,7 @@ Material:
     - _SDFMode: 1
     - _ScaleRatioA: 0.9
     - _ScaleRatioB: 0.67725
-    - _ScaleRatioC: 0.32654294
+    - _ScaleRatioC: 0.2709
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -5378,7 +5379,7 @@ Material:
     - _UnderlayDilate: 1
     - _UnderlayOffsetX: 1
     - _UnderlayOffsetY: -1
-    - _UnderlaySoftness: 0.074
+    - _UnderlaySoftness: 0.5
     - _UseUIAlphaClip: 0
     - _UseVector3: 0
     - _VertexOffsetX: 0
